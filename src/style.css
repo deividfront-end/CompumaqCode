@@ -27,7 +27,7 @@ body {
   background-color: rgb(80, 47, 47);
 
     /* ... outras propriedades ... */
-    animation: girar 4s infinite ease-in-out;
+    animation: girar 0.4s infinite ease-in-out;
     
   }
   
