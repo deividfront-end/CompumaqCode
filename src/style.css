@@ -138,16 +138,18 @@ background-color: rgba(170, 165, 165, 0.205);
     
     .box{
     background-color: rgba(255, 255, 255, 0.199);
-        margin-top:290px;
+        margin-top:240px;
+        margin-bottom: 289px;
         display: flex;
         justify-content: center;
         justify-items: center;
     }
 .rodape{
+  padding: 50px;
   display: flex;
   justify-content: center;
-  
-  margin-top: 221px;
+ 
+  margin-top: -100px;
 }
 
 
