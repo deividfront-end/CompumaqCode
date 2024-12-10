@@ -1,124 +1,155 @@
 * {
-    height: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  height: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../src/img/Fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.youtube-icon {
+
+  box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.74);
+  border-top: 3px  solid rgba(255, 0, 0, 0.877);
+  border-left: 3px solid rgba(255, 0, 0, 0.5);
+  border-right:3px solid rgba(255, 0, 0, 0.5) ;
+  border-radius: 330px;
+  background-color: rgb(80, 47, 47);
+
+    /* ... outras propriedades ... */
+    animation: girar 4s infinite ease-in-out;
+    
   }
   
+  @keyframes girar {
+    0% {
+      transform: rotateY(0deg) ;
+    }
+    50% {
+      transform: rotateY(180deg) ;
+
+
+    }
+    100% {
+        transform: rotateY(360deg) ;
+  
+  
+      }
+   
+}
+.youtube-icon img {
+  border-radius: 390px;
+}
+.youtube-icon:hover{
+  width: 270px;
+  text-align: center;
+background-color: rgb(255, 0, 0);
+border-radius: 360px;
+align-items: center;
+
+
+}
+
+
+.box{
+background-color: rgba(170, 165, 165, 0.205);
+    margin-top:290px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.rodape{
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.rodape a{
+ text-decoration: none;
+ color: white;
+}
+
+
+/*Responsive  */
+@media (max-width: 415px) {  
+
+
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     background-image: url(../src/img/Fundo.jpg);
-    background-size: cover;
+    background-size: cover!important;
+   
   }
-
 
   .youtube-icon {
 
-    border-radius: 390px;
-  
-      /* ... outras propriedades ... */
-      animation: girar 4s infinite ease-in-out;
+      border-radius: 390px;
+    
+        /* ... outras propriedades ... */
+        animation: girar 5s infinite ease-in-out;
+        
+      }
       
+      @keyframes girar {
+        0% {
+          transform: rotateY(0deg) ;
+        }
+        50% {
+          transform: rotateY(180deg) ;
+    
+    
+        }
+        100% {
+            transform: rotateY(360deg) ;
+      
+      
+          }
+       
     }
-    
-    @keyframes girar {
-      0% {
-        transform: rotateY(0deg) ;
-      }
-      50% {
-        transform: rotateY(180deg) ;
-  
-  
-      }
-      100% {
-          transform: rotateY(360deg) ;
+    .youtube-icon img {
+      border-radius: 390px;
+    }
+    .youtube-icon:hover{
+      width: 270px;
+      text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 360px;
+    align-items: center;
     
     
-        }
-     
-  }
-  .youtube-icon img {
-    border-radius: 390px;
-  }
-  .youtube-icon:hover{
-    width: 270px;
-    text-align: center;
-  background-color: rgb(255, 0, 0);
-  border-radius: 360px;
-  align-items: center;
+    }
+   
+    
+    .box{
+    background-color: rgba(255, 255, 255, 0.199);
+        margin-top:290px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+.rodape{
+  display: flex;
+  justify-content: center;
   
-  
-  }
- 
-  
-  .box{
-  background-color: rgba(170, 165, 165, 0.205);
-      margin-top:290px;
-      display: flex;
-      justify-content: center;
-      justify-items: center;
-  }
+  margin-top: 221px;
+}
 
 
 
-  
-/*Responsive  */
-@media (max-width: 415px) {  
-
-
-
-    .youtube-icon {
-
-        border-radius: 390px;
-      
-          /* ... outras propriedades ... */
-          animation: girar 5s infinite ease-in-out;
-          
-        }
-        
-        @keyframes girar {
-          0% {
-            transform: rotateY(0deg) ;
-          }
-          50% {
-            transform: rotateY(180deg) ;
-      
-      
-          }
-          100% {
-              transform: rotateY(360deg) ;
-        
-        
-            }
-         
-      }
-      .youtube-icon img {
-        border-radius: 390px;
-      }
-      .youtube-icon:hover{
-        width: 270px;
-        text-align: center;
-      background-color: rgb(255, 0, 0);
-      border-radius: 360px;
-      align-items: center;
-      
-      
-      }
-     
-      
-      .box{
-      background-color: rgba(165, 42, 42, 0.199);
-          margin-top:290px;
-          display: flex;
-          justify-content: center;
-          justify-items: center;
-      }
-
-
-
-  
 }
